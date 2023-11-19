@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import "~font-awesome/css/font-awesome.css";
 body {
     font-family: Roboto, Helvetica Neue, sans-serif
 }
@@ -9971,14 +9970,6 @@ a.text-dark:hover {
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
-@font-face {
-    font-family: FontAwesome;
-    src: url(fontawesome-webfont.8b43027f47b20503057d.eot?v=4.7.0);
-    src: url(fontawesome-webfont.8b43027f47b20503057d.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(fontawesome-webfont.20fd1704ea223900efa9.woff2?v=4.7.0) format("woff2"), url(fontawesome-webfont.f691f37e57f04c152e23.woff?v=4.7.0) format("woff"), url(fontawesome-webfont.1e59d2330b4c6deb84b3.ttf?v=4.7.0) format("truetype"), url(fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg?v=4.7.0#fontawesomeregular) format("svg");
-    font-weight: 400;
-    font-style: normal
-}
-
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -12782,8 +12773,7 @@ a.text-dark:hover {
     content: "\f2b3"
 }
 
-.fa-fa:before,
-.fa-font-awesome:before {
+.fa-fa:before {
     content: "\f2b4"
 }
 
@@ -12985,5 +12975,13 @@ a.text-dark:hover {
     overflow: visible;
     clip: auto
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

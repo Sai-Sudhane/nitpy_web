@@ -22,13 +22,11 @@
                         "tsConfig": "tsconfig.app.json",
                         "assets": [
                             "src/favicon.ico",
-                            "src/assets",
-                            "src/assets/font-awesome"
+                            "src/assets"
                         ],
                         "styles": [
-                          "@angular/material/prebuilt-themes/purple-green.css",
-                          "src/styles.css",
-                          "node_modules/font-awesome/css/font-awesome.css"
+                            "@angular/material/prebuilt-themes/purple-green.css",
+                            "src/styles.css"
                         ],
                         "scripts": []
                     },
@@ -86,12 +84,11 @@
                         "tsConfig": "tsconfig.spec.json",
                         "assets": [
                             "src/favicon.ico",
-                            "src/assets",
-                            "node_modules/font-awesome/fonts"
+                            "src/assets"
                         ],
                         "styles": [
-                          "@angular/material/prebuilt-themes/purple-green.css",
-                          "src/styles.css"
+                            "@angular/material/prebuilt-themes/purple-green.css",
+                            "src/styles.css"
                         ],
                         "scripts": []
                     }

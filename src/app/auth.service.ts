@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class AuthService {
-  private baseUrl = 'http://127.0.0.1:5000'; // Replace with your backend API URL
+  private baseUrl = 'https://nitpyweb5.onrender.com'; // Replace with your backend API URL
 
   constructor(private http: HttpClient) {}
   setUserData(userData: any): void {
