@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import "~font-awesome/css/font-awesome.css";
 body {
     font-family: Roboto, Helvetica Neue, sans-serif
 }
@@ -312,12 +313,13 @@ select {
     word-wrap: normal
 }
 
-[type=button],
+
+/*[type=button],
 [type=reset],
 [type=submit],
 button {
-    -webkit-appearance: button
-}
+    -webkit-appearance: button;
+}*/
 
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -373,10 +375,11 @@ progress {
     height: auto
 }
 
-[type=search] {
+
+/*[type=search] {
     outline-offset: -2px;
     -webkit-appearance: none
-}
+}*/
 
 [type=search]::-webkit-search-decoration {
     -webkit-appearance: none
@@ -9887,8 +9890,8 @@ a.text-dark:hover {
 
 @media print {
     *,
-    :after,
-    :before {
+     :after,
+     :before {
         text-shadow: none!important;
         box-shadow: none!important
     }
@@ -10090,27 +10093,27 @@ a.text-dark:hover {
 }
 
 .fa-rotate-90 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";*/
     transform: rotate(90deg)
 }
 
 .fa-rotate-180 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";*/
     transform: rotate(180deg)
 }
 
 .fa-rotate-270 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";*/
     transform: rotate(270deg)
 }
 
 .fa-flip-horizontal {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";*/
     transform: scaleX(-1)
 }
 
 .fa-flip-vertical {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";*/
     transform: scaleY(-1)
 }
 
@@ -12982,3 +12985,5 @@ a.text-dark:hover {
     overflow: visible;
     clip: auto
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

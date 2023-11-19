@@ -142,3 +142,11 @@ html {
     text-decoration: none;
     transition: .4s
 }
+
+#home_container {
+    padding: 10px;
+}
+
+#leave-form {
+    padding: 15px;
+}
