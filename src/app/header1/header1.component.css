@@ -1,0 +1,149 @@
+#subheader {
+    background-color: #293132;
+}
+
+#homeicon {
+    height: 32px;
+    padding: .5rem;
+}
+
+#mainheader {
+    background-color: #1b3a72;
+}
+
+#logo {
+    height: 100px;
+}
+
+.headerIcon {
+    height: 32px;
+}
+
+#navbar {
+    background-color: #293132;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+#navItems {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navItem {
+    display: inline-block;
+}
+
+#navitem:hover {
+    cursor: pointer;
+}
+
+.navItem a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: .5rem;
+}
+
+.navItem a:hover {
+    background-color: #222525;
+}
+
+#drop-content {
+    display: none;
+    position: absolute;
+    background-color: #293132;
+    z-index: 9999;
+    min-width: 250px;
+    box-shadow: 0 4x 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+}
+
+#dropItems {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropItem,
+.dropItem a,
+#dropdown:hover #drop-content {
+    display: block;
+}
+
+#dropdown:hover #drop-content {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: #293132;
+    color: #fff;
+}
+
+.dropdown-menu li {
+    background-color: #293132;
+}
+
+.dropdown-toggle:after {
+    visibility: hidden;
+}
+
+@media(max-width:992px) {
+    .dropdown-toggle:after {
+        visibility: visible;
+    }
+}
+
+@media(min-width:992px) {
+    .dropdown-menu {
+        display: none;
+    }
+    .nav-item:hover .nav-link {
+        color: #fff;
+    }
+    .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:1028px) {
+    #logo {
+        height: 80px;
+    }
+    .headerIcon {
+        height: 22px;
+    }
+    #name {
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width:660px) {
+    #logo {
+        height: 100px;
+    }
+    .headerIcon {
+        height: 22px;
+    }
+    #name {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    #logo {
+        height: 100px;
+    }
+    .headerIcon {
+        height: 22px;
+    }
+    #name {
+        font-size: x-small;
+    }
+}

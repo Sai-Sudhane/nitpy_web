@@ -1,0 +1,49 @@
+footer {
+    background-color: #1b3a72;
+}
+
+.footerTitle {
+    font-size: 1.2rem;
+}
+
+#quickLinksList {
+    column-count: 3;
+}
+
+.socialIcon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.socialIcon a img {
+    height: 70%;
+}
+
+#facebook a:hover {
+    background-color: #39569c;
+}
+
+#twitter a:hover {
+    background-color: #26a7de;
+}
+
+#youtube a:hover {
+    background-color: #b2071d;
+}
+
+#linkedin a:hover {
+    background-color: #0072b1;
+}
+
+#instagram a:hover {
+    background-color: #c13584;
+}
+
+@media(max-width:1201px) {
+    .col-lg-6 {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,19 @@
+<div class="dashboard-container">
+    <!-- Header section -->
+    <div class="dashboard-header">
+        <h1>Welcome, {{ userData.name }}</h1>
+        <h2>Department: {{ department.department_name }}</h2>
+        <p>Roll No: {{ userData.roll_no }}</p>
+    </div>
+
+    <!-- Body section -->
+    <div class="dashboard-body">
+        <!-- Courses section -->
+        <div class="courses">
+            <h2>Your Courses</h2>
+            <ul>
+                <li *ngFor="let course of department.subjects">{{ course }}</li>
+            </ul>
+        </div>
+    </div>
+</div>

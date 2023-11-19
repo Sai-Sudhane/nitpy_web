@@ -1,0 +1,17 @@
+#submit {
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+    color: #000;
+    border: 2px solid #1b3a72;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+#submit:hover {
+    color: #fff;
+    background-color: #1b3a72;
+    border: 2px solid #1b3a72;
+    text-decoration: none;
+    transition: .4s
+}
